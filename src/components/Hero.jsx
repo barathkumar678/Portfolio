@@ -44,7 +44,8 @@ export default function Hero() {
 
           <p className="hero-desc">
             Crafting responsive, intuitive, and visually appealing web experiences.
-            Passionate about blending technical expertise with creative design.
+            Passionate about blending technical expertise with creative design
+            for optimal user experiences.
           </p>
 
           <div className="hero-actions">
@@ -65,7 +66,7 @@ export default function Hero() {
             <div className="info-icon purple"><GraduationCap size={18} /></div>
             <div>
               <div className="info-text-label">Education</div>
-              <div className="info-text-value">B.E. Computer Science</div>
+              <div className="info-text-value">B.E. CSE — CGPA 7.6</div>
             </div>
           </div>
           <div className="info-row">
@@ -79,7 +80,7 @@ export default function Hero() {
             <div className="info-icon emerald"><Briefcase size={18} /></div>
             <div>
               <div className="info-text-label">Experience</div>
-              <div className="info-text-value">Fullstack Dev Intern — Codtech</div>
+              <div className="info-text-value">Fullstack Intern — Codtech</div>
             </div>
           </div>
           <div className="info-row">

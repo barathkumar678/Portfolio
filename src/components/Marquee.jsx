@@ -1,8 +1,8 @@
 const skills = [
-  'HTML', 'CSS', 'JavaScript', 'Python', 'C',
-  'React', 'Angular.js', 'Node.js',
-  'Git', 'Flexbox', 'Grid', 'REST API',
-  'MS Office', 'Problem Solving', 'Team Work',
+  'Python', 'JavaScript', 'HTML', 'CSS', 'C/C++', 'SQL',
+  'React', 'Flask', 'Figma', 'Responsive Design',
+  'Machine Learning', 'OpenCV', 'TensorFlow',
+  'Git', 'VS Code', 'Arduino', 'IoT',
 ];
 
 export default function Marquee() {

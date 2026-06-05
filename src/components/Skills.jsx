@@ -6,42 +6,44 @@ gsap.registerPlugin(ScrollTrigger);
 
 const categories = [
   {
-    name: 'Languages',
+    name: 'Programming Languages',
     color: 'var(--accent)',
     skills: [
-      { name: 'HTML', emoji: '🌐', level: 4 },
-      { name: 'CSS', emoji: '🎨', level: 4 },
+      { name: 'Python', emoji: '🐍', level: 4 },
       { name: 'JavaScript', emoji: '⚡', level: 4 },
-      { name: 'Python', emoji: '🐍', level: 3 },
-      { name: 'C', emoji: '⚙️', level: 3 },
+      { name: 'HTML', emoji: '🌐', level: 5 },
+      { name: 'CSS', emoji: '🎨', level: 5 },
+      { name: 'C/C++', emoji: '⚙️', level: 3 },
+      { name: 'SQL', emoji: '🗃️', level: 3 },
     ],
   },
   {
-    name: 'Frameworks & Libraries',
+    name: 'Web & UI',
     color: 'var(--cyan)',
     skills: [
       { name: 'React', emoji: '⚛️', level: 4 },
-      { name: 'Angular.js', emoji: '🅰️', level: 3 },
-      { name: 'Node.js', emoji: '🟢', level: 3 },
+      { name: 'Front-End Dev', emoji: '💻', level: 4 },
+      { name: 'Responsive Design', emoji: '📱', level: 4 },
+      { name: 'Figma', emoji: '🎯', level: 3 },
     ],
   },
   {
-    name: 'Soft Skills',
+    name: 'AI & Computer Vision',
     color: 'var(--emerald)',
     skills: [
-      { name: 'Communication', emoji: '💬', level: 5 },
-      { name: 'Team Work', emoji: '🤝', level: 5 },
-      { name: 'Problem Solving', emoji: '🧩', level: 4 },
+      { name: 'Machine Learning', emoji: '🤖', level: 3 },
+      { name: 'OpenCV', emoji: '👁️', level: 3 },
+      { name: 'Image Processing', emoji: '🖼️', level: 3 },
     ],
   },
   {
-    name: 'Tools',
+    name: 'IoT & Tools',
     color: 'var(--amber)',
     skills: [
-      { name: 'Git', emoji: '🔀', level: 3 },
-      { name: 'MS Word', emoji: '📝', level: 4 },
-      { name: 'PowerPoint', emoji: '📊', level: 4 },
-      { name: 'Excel', emoji: '📈', level: 3 },
+      { name: 'Arduino', emoji: '🔌', level: 3 },
+      { name: 'Sensor Integration', emoji: '📡', level: 3 },
+      { name: 'Git', emoji: '🔀', level: 4 },
+      { name: 'VS Code', emoji: '📝', level: 4 },
     ],
   },
 ];

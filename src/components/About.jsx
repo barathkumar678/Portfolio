@@ -38,28 +38,30 @@ export default function About() {
             and visually appealing websites. Passionate about blending technical
             expertise with creative design for optimal user experiences. Quick learner,
             adaptable, and committed to delivering clean, efficient, and maintainable code.
+            Eager to contribute to innovative projects and grow within a collaborative
+            development environment.
           </p>
         </div>
 
         {/* Education 1 */}
         <div className="bento-card bento-edu">
           <div className="bento-card-label"><span className="dot cyan" /> Education</div>
-          <div className="bento-value">Bachelor of Engineering (CSE)</div>
-          <div className="bento-sub">Adithya Institute Of Technology</div>
+          <div className="bento-value">B.E. Computer Science & Engineering</div>
+          <div className="bento-sub">Adithya Institute Of Technology — CGPA: 7.6</div>
           <div className="bento-detail-row">
-            <MapPin size={12} /> Coimbatore
+            <MapPin size={12} /> Coimbatore, Tamilnadu
             <span style={{ margin: '0 6px', color: 'var(--text-muted)' }}>·</span>
-            <Calendar size={12} /> 2022 – Present
+            <Calendar size={12} /> 2022 – 2026
           </div>
         </div>
 
         {/* Education 2 */}
         <div className="bento-card bento-edu2">
           <div className="bento-card-label"><span className="dot cyan" /> Higher Secondary</div>
-          <div className="bento-value">Higher Secondary Education</div>
-          <div className="bento-sub">Kshatriya Vidhya Sala HSS</div>
+          <div className="bento-value">HSC — Higher Secondary Education</div>
+          <div className="bento-sub">Kshatriya Vidhya Sala Higher Secondary School</div>
           <div className="bento-detail-row">
-            <MapPin size={12} /> Virudhunagar
+            <MapPin size={12} /> Virudhunagar, India
             <span style={{ margin: '0 6px', color: 'var(--text-muted)' }}>·</span>
             <Calendar size={12} /> 2020 – 2022
           </div>
@@ -97,16 +99,16 @@ export default function About() {
               <div className="stat-mini-label">Certs</div>
             </div>
             <div className="stat-mini-item">
-              <div className="stat-mini-number">5+</div>
+              <div className="stat-mini-number">8+</div>
               <div className="stat-mini-label">Tech</div>
             </div>
             <div className="stat-mini-item">
-              <div className="stat-mini-number">1+</div>
+              <div className="stat-mini-number">2+</div>
               <div className="stat-mini-label">Intern</div>
             </div>
             <div className="stat-mini-item">
-              <div className="stat-mini-number">2</div>
-              <div className="stat-mini-label">Languages</div>
+              <div className="stat-mini-number">3+</div>
+              <div className="stat-mini-label">Projects</div>
             </div>
           </div>
         </div>

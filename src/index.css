@@ -871,6 +871,44 @@ ul, ol { list-style: none; }
 
 .project-tag.iot { background: rgba(34, 211, 238, 0.1); color: var(--cyan); border: 1px solid rgba(34, 211, 238, 0.15); }
 .project-tag.hardware { background: rgba(251, 191, 36, 0.1); color: var(--amber); border: 1px solid rgba(251, 191, 36, 0.15); }
+.project-tag.ai { background: rgba(167, 139, 250, 0.1); color: var(--accent); border: 1px solid rgba(167, 139, 250, 0.15); }
+.project-tag.health { background: rgba(52, 211, 153, 0.1); color: var(--emerald); border: 1px solid rgba(52, 211, 153, 0.15); }
+.project-tag.engineering { background: rgba(251, 191, 36, 0.1); color: var(--amber); border: 1px solid rgba(251, 191, 36, 0.15); }
+.project-tag.fullstack { background: rgba(34, 211, 238, 0.1); color: var(--cyan); border: 1px solid rgba(34, 211, 238, 0.15); }
+
+/* Experience cards stack */
+.exp-cards-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Projects grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.projects-grid .project-card {
+  margin-top: 0;
+}
+
+.project-subtitle {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-tertiary);
+  letter-spacing: 0.04em;
+  margin-bottom: 0.75rem;
+  margin-top: -0.5rem;
+}
 
 .project-name {
   font-family: var(--font-heading);
